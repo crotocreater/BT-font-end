@@ -1,0 +1,45 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css);
+:root{
+   --color-one: #8E450A;
+   --color-two: #E8E6E3;
+   --color-three: #A0957B;
+   --color-for: #866414;
+   --color-five: #852E19;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.main-div{
+    width: 100%;
+    height: 100vh;
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 60px;
+    color: white;
+    text-shadow: 1px 10px 20px black;
+}
+button{
+    width: 160px;
+    height: 80px;
+    margin: 30px;
+    border: 5px solid white;
+    background-color: palevioletred;
+    color: white;
+    font-size: 24px;
+    border-radius: 30px;
+}
+.hover{
+    position: relative;
+    background-color: #31363B;
+}
+.hover:hover{
+    visibility: hidden;
+}
